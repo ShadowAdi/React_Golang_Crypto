@@ -1,4 +1,4 @@
-# **React Golnag Crypto**
+# **React Golang Crypto**
 Hii This is Crypto web app which which gives information about Crypto Coins. If You are interested in Crypto Coins This app is might be useful  for you.
 It is created with help of React as Frontend And Golang For backend.The data for Crypto Coins Came from a CoinGecko Api.
 **Features:**
