@@ -1,0 +1,11 @@
+.ant-menu-horizontal {
+  line-height: 64px; /* Ensure the menu items are vertically centered */
+}
+
+.ant-input-search {
+  vertical-align: middle; /* Ensure the search input is vertically aligned */
+}
+
+.ant-avatar {
+  vertical-align: middle; /* Ensure the avatar is vertically aligned */
+}

@@ -1,0 +1,25 @@
+#inputSearch {
+  width: 400px;
+}
+
+#AvatarImage {
+  height: 100%;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+  #inputSearch {
+    width: 200px;
+  }
+}
+@media (max-width: 660px) {
+  #inputSearch {
+    width: 100px;
+  }
+  #AvatarImage{
+    height: 20px;
+    width: 20px;
+  }
+}

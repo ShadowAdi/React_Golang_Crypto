@@ -1,0 +1,22 @@
+.dimmed-link {
+    position: relative;
+    overflow: hidden; /* Ensure the pseudo-element doesn't overflow the card */
+  }
+  
+  .dimmed-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.044); /* Adjust the opacity to control the dimness */
+    z-index: 1;
+    border-radius: inherit; /* Match the border radius of the Link component */
+  }
+  
+  .dimmed-link * {
+    position: relative;
+    z-index: 2;
+  }
+  
