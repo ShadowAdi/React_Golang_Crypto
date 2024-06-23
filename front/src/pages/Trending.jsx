@@ -1,4 +1,4 @@
-import { Card, Flex, Grid, Row } from "antd";
+import { Card} from "antd";
 import Coin from "../components/Coin";
 import { useQuery } from "@tanstack/react-query";
 import { TrendingApi } from "../api/TrendingApi";
